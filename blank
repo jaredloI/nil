@@ -249,7 +249,7 @@ game.StarterGui:SetCore("SendNotification", {
     
     Section:Textbox("Key", function(zzzzz)
         if string ~= '' then
-    PredictionVelocity = zzzzz
+    getgenv().AimlockKey = zzzzz
         end
     end)
     
